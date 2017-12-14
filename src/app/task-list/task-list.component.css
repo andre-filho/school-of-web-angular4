@@ -1,0 +1,13 @@
+button {
+  color: white;
+  background-color: #7576d6;
+  border: none;
+  border-radius: 25px;
+  padding: 1em;
+}
+
+input {
+  padding: 1em;
+  border: none;
+  border-radius: 25px;
+}

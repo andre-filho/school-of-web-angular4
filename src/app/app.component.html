@@ -1,11 +1,3 @@
 <h1>{{title}}</h1>
 <br>
-<input type="text" [(ngModel)]="task">
-<button type="button" name="button" (click)="add()">
-  Adicionar na lista
-</button>
-<ul>
-  <li *ngFor="let item of tasks">
-    {{ item }}
-  </li>
-</ul>
+<app-task-list></app-task-list>
